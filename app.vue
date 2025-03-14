@@ -145,3 +145,10 @@ select {
   appearance: none;
 }
 </style>
+=======
+<template>
+  <div>
+    <NuxtPage />
+  </div>
+</template>
+>>>>>>> 4608da0 (Initial commit)

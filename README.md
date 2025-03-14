@@ -1,3 +1,4 @@
+To connect to a different API, adjust the API credentials in the `nuxt.config` file. The `Shopware` object should include `{ endpoint, accessToken }`.
 # Demo template (Nuxt)
 
 ![Shopware Frontends](.assets/shopware-frontends-logo.png)
@@ -104,3 +105,80 @@ To fix it, you need to do one of the following:
   ```
 
   or set the `NITRO_PLATFORM` env right in vercel dashboard.
+=======
+# Nuxt Minimal Starter
+
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
+## Setup
+
+Make sure to install dependencies:
+
+```bash
+# npm
+npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+>>>>>>> 4608da0 (Initial commit)
